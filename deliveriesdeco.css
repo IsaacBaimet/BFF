@@ -1,0 +1,45 @@
+.add{
+    background-color: black;
+    color:white;
+    width: 1200px;
+    float:right;
+    text-align:center;
+    margin:10px auto;
+    justify-content: space-between;
+    font-size:15px;
+
+}
+body{
+    background-color:goldenrod ;
+    background-size:cover;
+}
+.thanks{
+    background-color: black;
+    color:white;
+    width: 1200px;
+    float:right;
+    text-align:center;
+    margin:10px auto;
+    justify-content: space-between;
+    font-size:55px;
+
+}
+.nav ul li{
+    width: 120px;
+    float:right;
+    text-align:center;
+    margin:10px auto;
+    justify-content: space-between;
+    font-size:30px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:white;
+    
+    
+}
+.nav ul li:hover{
+    background-color: goldenrod;
+    color:white;
+    
+}

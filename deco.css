@@ -1,0 +1,170 @@
+h1{
+    font-weight:bold;
+    background-color:black;
+    color:goldenrod;
+    border:solid,black;
+    background-size: cover;
+    font-family:monospace;
+    font-size: 80px;
+    font-style: italic;
+}
+h2{
+    font-weight:bold;
+    background-color:black;
+    color:goldenrod;
+    border:solid,black;
+    background-position: center;
+    font-family:monospace;
+    font-size: 30px;
+    font-style:italic;
+    text-align: center;
+}
+#line1{
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+
+
+.nav ul li{
+    width: 120px;
+    float:right;
+    text-align:center;
+    margin:10px auto;
+    justify-content: space-between;
+    font-size:30px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:white;
+    
+    
+}
+.nav ul li:hover{
+    background-color: goldenrod;
+    color:white;
+    
+}
+strong a{
+    background-color:black;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color:whitesmoke;
+    border:solid;
+    font-size:40px;
+
+}
+strong :hover{
+background-color: goldenrod;
+color:white;
+text-align:center;
+}
+body{
+    background-color:goldenrod ;
+    background-size:cover;
+}
+    
+.benefits{
+    font-style: italic;
+    color:goldenrod;
+    font-size:20px;
+    border-style: hidden;
+    text-align:center;
+    float:left;
+    background-color:black;
+    background: cover;   
+    width: 1200px;
+}
+.features {
+    font-style: italic;
+    color:black;
+    font-size:20px;
+    border-style: hidden;
+    text-align:center;
+    float:left;
+    background-color: goldenrod;
+    background: cover;   
+    width: 1200px;
+    text-align:center;
+    margin:10px auto;
+    
+}
+.trust{
+    font-style: italic ;
+    color:black;
+    font-size:15px;
+    border-style: hidden;
+    text-align:center;
+    float:right;
+    background-color:rosybrown;
+    background: cover;   
+    width: 1200px;
+    text-align:center;
+    margin:10px auto;
+
+}
+.trust span{
+    float:left;
+}
+
+#review{
+    float :bottom right;
+}
+#review2{
+    float:top right;
+}
+
+h3{
+    background-color: goldenrod;
+    font-style: monospace;
+    color:black;
+    font-size: 20px;
+}
+#benefits{
+    float:top left;
+}
+#ben{
+    background-color: goldenrod;
+    color:black;
+
+}
+.add{
+    background-color: black;
+    color:white;
+    width: 1200px;
+    float:right;
+    text-align:center;
+    margin:10px auto;
+    justify-content: space-between;
+    font-size:15px;
+
+}
+
+.link-button {
+
+    background: #ffffff none repeat scroll 0 0;
+
+    border: 1px solid #aa8d56;
+
+    color: #aa8d56;
+
+    outline: medium none;
+
+   
+
+    text-decoration: none;
+
+}
+
+.link-button:hover {
+
+    Background-color:  #aa8d56;
+
+    Color: #ffffff;
+
+}
+
+
+
