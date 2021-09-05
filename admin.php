@@ -20,6 +20,7 @@ if(!isset($_SESSION['username']) || $_SESSION['role']!="admin")
        
             
             <li><a href="showdata.php">Users Table</li>
+            <li><a href="showorders.php">Orders Table</li>
             <li><a href="adminprofiledetails.php"><?= $_SESSION['username']?></a></li>
             <li><a class="link-button" href="logout.php" style="color:red;" >Log Out</a></li>
             </ul>
@@ -128,7 +129,7 @@ if (isset($_POST['submitImage'])) {
 
     $fileExt= explode('.', $filename);
     $fileActualExt=strtolower(end($fileExt));
-    $allowed=array('jpg','jpeg','png');
+    $allowed=array('jpg','jpeg','png','jfif');
 
     if (in_array($fileActualExt, $allowed)) 
     {

@@ -118,8 +118,7 @@ if (isset($_POST['remove']))
 									$namee = $row['product_name'];
 									$orderid=$iad.$namee;
 
-									$sql = "INSERT INTO orders(OrderID,ProductName,ProductPrice)VALUES('$orderid','$namee','$prize')";
-										mysqli_query($conn, $sql);		
+										
 								
 							}
 						}
@@ -179,7 +178,7 @@ if (isset($_POST['remove']))
  			if (isset($_POST['submitOrder'])) {
 
  				echo "<script>alert('Order Submitted!')</script>";
- 				echo "<script>window.location='cart.php'</script>";
+ 				echo "<script>window.location='cart2.php'</script>";
  				$tootal=$total;
  				$iad = $_SESSION['username'];
  				$totalid=$iad.$tootal;
